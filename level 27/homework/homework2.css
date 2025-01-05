@@ -1,0 +1,46 @@
+#paragraph {
+    color: white;
+}
+.interact{
+    font-size: small;
+    color: white;
+}
+#sign {
+    color: white;
+    background-color: cyan;
+    border-radius: 20%;
+}
+#smalltext {
+    color:aqua;
+    font-size: smaller;
+    text-align: center;
+}
+body {
+    background-color: navy;
+}
+h1 {
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+#quote {
+    text-align: center;
+    color: white;
+}
+#button1 {
+    
+    color: white;
+    border-radius: 10%;
+    background-color:darkcyan;
+    
+}
+#button2 {
+    
+    color: white;
+    border-radius: 10%;
+    background-color: navy;
+    border: 1px cyan solid;
+}
+.infos {
+    background-color: white;
+}

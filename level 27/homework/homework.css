@@ -1,0 +1,14 @@
+#div1 {
+    color: yellowgreen;
+}
+#par {
+    color: red;
+}
+#py {
+    color: yellow;
+}
+#pyb {
+    color: gold;
+    border: blue 4px solid;
+    background-color: wheat;
+}
