@@ -1,0 +1,48 @@
+#par1 {
+    color: rgb(255, 0, 0);
+}
+#par2 {
+    color: rgb(0,0,255);
+}
+#par3 {
+    color: rgb(3, 158, 3);
+}
+#par4 {
+    color: rgb(255,255,0);
+}
+#par5 {
+    color: rgb(141, 44, 44);
+}
+.buttons {
+    background-color: rgb(0,0,0);
+    
+}
+.buttons2 {
+    background-color: aqua;
+}
+#button {
+     background-color: rgb(0,0,255);  /* ეს შეცვლის */
+}
+#first {
+    color: rgb(74, 30, 30);
+    background-color: rgb(109, 91, 64);
+}
+#second {
+    color: rgb(67,35,89);
+    background-color: rgb(129, 129, 119);
+    
+}
+#third {
+    color: rgb(3, 158, 3);
+    background-color: rgb(148, 108, 7);
+}
+#fourth {
+    color:rgb(146, 6, 6);
+    background-color: rgb(85, 107, 47);
+    
+}
+#fifth {
+    color:rgb(52, 118, 184);
+    background-color: rgb(105, 213, 177);
+    
+}
