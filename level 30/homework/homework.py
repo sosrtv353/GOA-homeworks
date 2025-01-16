@@ -142,7 +142,33 @@ inp7=str(input("just type anything:"))
 if inp7 == inp7.upper():
     print("its in uppercase")
 else: print("its in lowercase")
+# end
+# replace homeworks:
+txt="dog is the cutest pet!"
+print(txt.replace("dog", "cat"))
 
+def manual_replace(main_txt):
+    savver=""
+    for w in main_txt:
+        if w == " ":
+            w = "_"
+        savver+=w
+    print(savver)
+# end
+# swapcase homeworks:
+string="hello MY NAME IS soso"
+print(string.swapcase())
 
+def manual_swapcase(the_txt):
+    _result_=""
+    for t in the_txt:
+        if t.isupper():
+            t=t.lower()
+            _result_+=t
+        elif t.islower():
+            t=t.upper()
+            _result_+=t
+    print(_result_)
+# end
 
 
