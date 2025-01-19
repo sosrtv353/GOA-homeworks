@@ -1,0 +1,87 @@
+#firstp {
+    color: rgb( 249, 8, 8);
+    background-color: rgb(44,99,222);
+}
+#secondp {
+    color: rgb(44,244,55);
+    background-color: rgb(170,30,70);
+}
+#thirdp {
+    color: rgb(1,1,100);
+    background-color: rgb(60,20,10);
+}
+#fourthp {
+    color: rgb( 12, 255, 255);
+    background-color: rgb( 100, 50, 50);
+}
+#fifthp {
+    color: rgb(57, 118, 31);
+    background-color: rgb(209, 122, 16);
+}
+#sixthp {
+    color: #ff0000;
+    background-color: #55aaff;
+}
+#seventhp {
+    color: #ffddcc;
+    background-color: #ffff00;
+}
+#eightp {
+    color: #ff1166;
+    background-color: #1111aa;
+}
+#ninthp {
+    color: #441177;
+    background-color: #aa44ff;
+}
+#tenthp {
+    color: #dddddd;
+    background-color: #111111;
+}
+#fatherdiv {
+    width: 1000px;
+    height: 1000px;
+    background-color: #00ff00;
+}
+#greetdiv {
+    width:20%;
+    height:15%;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.tendivs {
+    width: 100px;
+    height: 100px;
+}
+#firstd {
+    background-color: #ffff00;
+}
+#secondd {
+    background-color: #ddffff;
+}
+#thirdd {
+    background-color: #cc9033;
+
+}
+#fourthd {
+    background-color:#fd12ab;
+}
+#fifthd {
+    background-color: #01fa50;
+}
+#sixthd {
+    background-color: #aaff01;
+}
+#seventhd {
+    background-color: #004400;
+}
+#eightd {
+    background-color: #cccc00;
+}
+#ninthd {
+    background-color: #dffdff;
+}
+#tenthd {
+    background-color: #faafcc;
+}
