@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Literata";
+    src: url(Literata-VariableFont_opsz\,wght.ttf);
+}
+p {
+    text-decoration: underline;
+    font-family: "Permanent Marker";
+}
+#warningbutton{
+    font-family: "Literata";
+}
+body {
+    font-family: "PT Serif";
+}
+a {
+      text-decoration:dashed underline;   /*cant be removed and have underline at the same time*/
+}
+h1 {
+    text-decoration: overline;
+    text-shadow: 5px 5px green;
+    font-family: "Economica";
+}
+#strike {
+    text-decoration: line-through;
+}
+h2 {
+    text-decoration: overline underline;
+}
+.warning {
+    text-decoration: underline wavy;
+}
+#navig {
+    text-transform: uppercase;
+}
+#html {
+    text-shadow: 2px 2px 8px red;
+}
+#css {
+    text-shadow: 6px 6px 3px;
+}
+
+
+#js {
+    text-shadow: -5px 6px 6px yellow;
+    
+}
