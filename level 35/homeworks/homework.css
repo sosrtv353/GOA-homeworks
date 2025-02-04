@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Italiana&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "italiana";
+    text-transform: uppercase;
+    
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff0012;
+    background-color:#cccccc ;
+}
+a:visited {
+    color: #aaff00;
+}
+table,th,td {
+    border:5px orange solid;
+    border-collapse: collapse;
+}
+h1,td {
+    background-color: #18aadd;
+    text-align: center;
+}
