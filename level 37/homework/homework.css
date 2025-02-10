@@ -1,0 +1,58 @@
+#stats {
+    border: 1px solid;
+}
+#stats tr:nth-child(1) {
+    color:white;
+    background-color: lightseagreen;
+    
+}
+#stats tr:nth-child(2) {
+    color: black;
+    background-color:white;
+}
+#stats tr:nth-child(3) {
+    color: lightseagreen;
+    background-color:gainsboro;
+}
+
+#infos tr:nth-child(odd) {
+    background-color: gainsboro;
+    
+    
+}
+#infos tr:nth-child(1) {
+    background-color: tomato;
+    color: white;
+    
+}
+#infos2 tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+#infos2 tr:nth-child(1) {
+    background-color: green;
+    color: white;
+}
+#infos3 tr:nth-child(1) {
+    background-color: rgb(250, 250, 1);
+    color: white;
+}
+#infos4 tr:nth-child(1) {
+    background-color: blue;
+    color: white;
+}
+#infos4 tr:nth-child(3) {
+    background-color: gainsboro;
+}
+
+#nobullets {
+    list-style-type: none;
+}
+#even li:nth-child(even) {
+    background-color: #ff0055;
+}
+#countries li:nth-child(3n) {
+    color: wheat;
+}
+#checkmark {
+    list-style-image: url(Screenshot\ 2025-02-10\ 131802.png);
+}

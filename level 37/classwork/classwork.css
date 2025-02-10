@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px lightgreen solid;
+}
+tr:nth-child(1) {
+    background-color: green;
+    color: white;
+}
+tr:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+tr:nth-child(3) {
+    background-color: gray;
+    color: black;
+}
+tr:nth-child(4) {
+    background-color: white;
+    color: black;
+}
+tr:nth-child(5) {
+    background-color: gray;
+    color: black;
+}

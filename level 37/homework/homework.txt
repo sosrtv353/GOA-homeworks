@@ -1,0 +1,50 @@
+1. str
+2. #this is a comment
+3. რიცხვების დიაპაზონის შექმნისთვის (ფუნქციაში მითითებულ რიცხვამდე)
+4.+
+5. unfinished question (4 choice question without any choices below )
+6.input
+7.for
+8.float
+9.False
+10.while 3!=3:
+11.helloworld
+12.0
+13. .py
+14.True
+15.unfinished question
+16.15
+17.o
+18. [2,4,6,8]
+19. სანამ პირობა False არ გახდება გაკეთდეს რამე (ბრძანება ან სხვა რამე)
+20. unfinished
+21. True,False
+22.unfinished
+23. and
+24.print(my_list[2])
+25.unfinished
+26. hyper markup text language
+27.ინფორმაცია ვებსაიტის
+28. <a href=""></a>
+29. h1
+30. alt
+31. ვებსაიტის სახელი
+32. br
+33. ol
+34. <input type="checkbox">
+35. style
+36.<form> input here </form>
+37. href
+38. same as underline
+39.<form>
+40. id
+41. ol
+42. select
+43. ნავიგაცია შეგვიძლია ამ ელემენტით
+44. ვებსაიტის მთავარი ნაწილის დაჯგუფებისთვის
+45. <!--  -->
+46. required
+47.<img src="">
+48.audio
+49.video
+50 true
