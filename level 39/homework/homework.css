@@ -1,0 +1,50 @@
+#name {
+    border: 3px red solid;
+    padding: 5px;
+    background-color: cadetblue;
+}
+#submit {
+    border-radius: 10px;
+    color: #eeffcc;
+    background-color: crimson;
+}
+#submit:hover {
+    background-color: black;
+    border-radius: 1px;
+}
+#name:focus {
+    border: 1px #aa1100 dashed;
+    color:#6f0f6f
+}
+#errors {
+    color: #ff1122;
+    padding: 10px;
+    margin: 50px;
+}
+#buttons {
+    padding: 30px 20px;
+}
+#padding {
+    padding: 60px 20px 40px 45px;
+    background-color: #ffff00;
+}
+#square {
+    width: 50px;
+    height: 50px;
+    background-color: #2200dd;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 4px 4px 4px violet;
+}
+#pars {
+    margin:20px;
+}
+#styledb {
+    border: 2px yellowgreen double;
+}
+ul li {
+    margin: 5px;
+}
+#sb {
+    margin: -5px;
+}
