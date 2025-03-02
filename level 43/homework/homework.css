@@ -1,0 +1,37 @@
+#info {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 103);
+    color: white;
+}
+article {
+    display: flex;
+    justify-content: space-around;
+}
+.up-down {
+    background-color: greenyellow;
+    height: 50px;
+}
+#sidebars {
+    display: flex;
+    justify-content: space-around;
+}
+.up-down2 {
+    text-align: center;
+}
+#structure {
+    align-items: space-around;
+}
+#structure2 {
+    align-items: space-around;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
