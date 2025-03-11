@@ -1,0 +1,97 @@
+#div1 {
+    height: 200px;
+    width: 250px;
+    background-color: blue;
+}
+#div2 {
+    height: 200px;
+    width: 250px;
+    background-color: red;
+}
+#div3 {
+    height: 200px;
+    width: 250px;
+    background-color: violet;
+}
+#displayed {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#div4 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(96, 24, 67);
+    flex-grow: 1;
+}
+#div5 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(11, 213, 227);
+    flex-grow: 1;
+}
+#div6 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(12, 217, 152);
+    flex-grow: 2;
+    flex-direction: row-reverse;
+}
+#center-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border: red 1px solid 
+
+}
+#div7 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(30, 137, 190);
+}
+#div8 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(198, 119, 22);
+    
+    
+}
+#div9 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(144, 19, 50);
+}
+#container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#style,#style2,#style3,#style4,#style5 {
+    height: 300px;
+    width: 350px;
+}
+#style {
+    background-color: crimson;
+}
+#style2 {
+    background-color: brown;
+}
+#style3 {
+    background-color: darkolivegreen;
+}
+#style4 {
+    background-color: lightsalmon;
+}
+#style5 {
+    background-color: rgb(28, 51, 144);
+}
+
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
