@@ -1,0 +1,115 @@
+
+#h {
+    color: red;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#cont {
+    height: 100vh;
+    position: relative;
+}
+#center {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px; 
+    margin-top: -25px;  
+}
+#nature {
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+    
+}
+#image {
+    position: absolute;
+    right: 40px;
+}
+
+#bottom {
+    position: relative;
+    background-color: aquamarine;
+    height: 100px;
+    width: 150px;
+}
+#b {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    
+}
+#over-text {
+    position: relative;
+}
+#back-text {
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 60px;
+}
+#bottomed {
+    position: fixed;
+}
+
+#square {
+    position: absolute;
+    bottom: 30px;
+    background-color: darkgoldenrod;
+    height: 60px;
+    width: 100px;
+}
+#containerr {
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background-color: lime;
+}
+#sq {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    bottom: 40%;
+    left: 20%;
+    background-color: midnightblue;
+}
+#sq2 {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    bottom: 40%;
+    left: 50%;
+    background-color: rgb(13, 96, 173);
+}
+#left-float {
+    position: relative;
+    justify-content: flex-start;
+    
+}
+#rt {
+    position: absolute;
+    bottom: 50px;
+    color: blanchedalmond;
+}
+#sec2 {
+    position: relative;
+}
+#sq3 {
+    position: absolute;
+    left: 550px;
+    background-color: aqua;
+    height: 50px;
+    width: 80px;
+}
+#sq4 {
+    position: absolute;
+    left: 750px;
+    background-color: brown;
+    height: 50px;
+    width: 80px;
+}
