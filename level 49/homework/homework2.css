@@ -1,0 +1,22 @@
+h1 {
+    transition: 1s;
+    text-align: center;
+    
+}
+h1:hover {
+    color:#ffaa11
+}
+#sq {
+    height: 200px;
+    width: 250px;
+    background-color: gold;
+    border:3px greenyellow solid;
+    transition: 1s;
+}
+#sq:hover {
+    border: 6px greenyellow solid;
+    background-color: rgb(244, 220, 88);
+    padding: 20px;
+    transform: rotate(140deg);
+    box-shadow: black 3px 3px 3px;
+}

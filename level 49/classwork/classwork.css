@@ -1,0 +1,23 @@
+#square {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+#square:active {
+    transform: rotate(30deg);
+}
+#sq {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    font-size: 20px;
+    transition: font-size 1s,background-color 2s, color 2s
+    ;
+    
+}
+#sq:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}

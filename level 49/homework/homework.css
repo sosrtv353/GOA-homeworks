@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+}
+#animated-button {
+    transition: 2s;
+}
+#animated-button:hover {
+    background-color: red;
+}
+#link1 {
+    transition: 1s;
+}
+#link1:hover {
+    color: rgba(98, 24, 167, 0.866);
+}
+img {
+    border-radius: 13px;
+}
+img:hover {
+    transform: scale(1.1);
+}
+#pressed {
+    transition: 1s;
+}
+#pressed:active {
+    transform: scale(0.9);
+}
