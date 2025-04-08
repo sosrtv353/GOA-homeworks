@@ -1,0 +1,79 @@
+/* საკლასო დავალება: */
+
+/* შექმენით ანიმაცია სახელად bg-and-deg-change keyframes-ის გამოყენებით: */
+
+/* 0% - ფონის ფერი იყოს შავი */
+/* 50% - ფონის ფერი იყოს მწვანე და დივ ბლოკი შემოტრიალდეს 180 გრადუსით */
+/* 100% - ფონის ფერი იყოს ლურჯი და დივ ბლოკი შემოტრიალდეს 180 გრადუსით. */
+
+/* ეს ანიმაცია უნდა გაეშვას მაშინ, როდესაც დივ ბლოკზე გვექნება hover მოვლენა და ანიმაციის ხანგრძლივობა უნდა იყოს 3 წამი. */
+#anim-div {
+    height: 400px;
+    width: 450px;
+    background-color: black;
+}
+#anim-div:hover {
+    animation-name: bg-and-deg-change;
+    animation-duration: 3s;
+}
+@keyframes bg-and-deg-change {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: green;
+        transform: rotate(180deg);
+    }
+    100% {
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}
+#cont {
+    position: relative;
+}
+#child {
+    height: 250px;
+    width: 270px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: moving;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    background-color: blue;
+}
+@keyframes moving {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        bottom: 50px;
+        left: 30px;
+        height: 130px;
+    }
+    50% {
+        top: 130px;
+        left: 60px;
+        height: 350px;
+    }
+    75% {
+        top: 180px;
+        left: 90px;
+        height: 220px;
+    }
+    90% {
+        bottom: -170px;
+        left: 150px;
+    }
+
+}
+#des {
+    height: 300px;
+    width: 350px;
+    background-color: brown;
+    transition: 0.3s;
+}
+#des:hover {
+    background-color: blueviolet;
+}
