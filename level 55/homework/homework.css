@@ -1,0 +1,184 @@
+
+#div1 {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    justify-self: center;
+    animation: left-right 3.5s ease 1s 2; /* 8) Set an animation to start 2 seconds after the page loads. */
+}
+@keyframes left-right{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: translate(100px,0px);
+    }
+    100% {
+        transform:translate(-100px,0px) ;
+    }
+}
+#div2 {
+    height: 150px;
+    width: 150px;
+    background-color: #3b0c98;
+    justify-self: center;
+    animation: color-change 5s ease-in 1s;
+}
+#div3 {
+    height: 150px;
+    width: 150px;
+    background-color: #1a8751;
+    justify-self: center;
+    animation: rotate 2.8s ease-in 1s;
+}
+@keyframes color-change {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        background-color: #b10909;
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+#div4 {
+    height: 150px;
+    width: 150px;
+    background-color: #f10f4b;
+    justify-self: center;
+    animation: pulse 3s linear 1.2s 1; /* 7) only runs once */
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1.2)
+    }
+    60% {
+        transform: scale(1.3)
+    }
+    80% {
+        transform: scale(1.2)
+    }
+    100% {
+        transform: scale(1.1)
+    }
+}
+#div5 {
+    height: 150px;
+    width: 150px;
+    background-color: #abbd0a;
+    justify-self: center;
+    border-radius: 50%;
+    animation: bounce 2.5s ease-in-out 1s 3;
+}
+@keyframes bounce {
+    0% {
+        transform: translate(0px,0px);
+    }
+    65% {
+        transform: translate(0px,-100px);
+    }
+    100% {
+        transform: translate(0px,0px) ;
+    }
+
+}
+#div6 {
+    height: 150px;
+    width: 150px;
+    background-color: #3c072a;
+    justify-self: center;
+    animation: spin 3s linear 1s infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#div7 {
+    height: 150px;
+    width: 150px;
+    background-color: #3c072a;
+    justify-self: center;
+    animation: sync1 3s linear 1s infinite
+}
+
+#div8 {
+    height: 150px;
+    width: 150px;
+    background-color: #3c072a;
+    justify-self: center;
+    animation: sync2 3s linear 1.5s infinite
+}
+
+#div9 {
+    height: 150px;
+    width: 150px;
+    background-color: #3c072a;
+    justify-self: center;
+    animation: sync3 3s linear 2s infinite
+}
+@keyframes sync1{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: translate(100px,0px);
+    }
+    100% {
+        transform:translate(-100px,0px) ;
+    }
+}
+@keyframes sync2{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: translate(100px,0px);
+    }
+    100% {
+        transform:translate(-100px,0px) ;
+    }
+}
+@keyframes sync3{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: translate(100px,0px);
+    }
+    100% {
+        transform:translate(-100px,0px) ;
+    }
+}
+
+#div10 {
+    height: 150px;
+    width: 150px;
+    background-color: #0aa51a;
+    justify-self: center;
+    animation:fade 10s linear 1s
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0
+    }
+}

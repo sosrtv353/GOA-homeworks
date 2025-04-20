@@ -1,0 +1,17 @@
+#parent-div {
+    height: 700px;
+    width: 760px;
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;   /* middle row is taller */
+    grid-template-columns: 2fr 1fr 2fr; /* middle column is narrower */
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#parent-div div {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
