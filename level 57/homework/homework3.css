@@ -1,0 +1,76 @@
+#pr {
+    height: 1000px;
+    width: 1200px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 10px;
+}
+#top {
+    grid-area: 1/1/2/14;
+    background-color: blue;
+}
+#td {
+    grid-area: 2/1/3/7;
+    background-color: blue;
+}
+#td2 {
+    grid-area: 2/7/3/14;
+    background-color: blue;
+}
+#four {
+    grid-area:3/1/4/5;
+    background-color: blue;
+}
+#four2 {
+    grid-area:3/5/4/9 ;
+    background-color: blue;
+}
+#four3 {
+    grid-area:3/9/4/14;
+    background-color: blue;
+}
+#middle {
+    grid-area: 4/1/5/4;
+    background-color: blue;
+}
+#middle2 {
+    grid-area: 4/4/5/7;
+    background-color: blue;
+}
+#middle3 {
+    grid-area: 4/7/5/10;
+    background-color: blue;
+}
+#middle4 {
+    grid-area: 4/10/5/14;
+    background-color: blue;
+}
+#six {
+    grid-area: 5/1/6/3;
+    background-color: blue;
+}
+#six2 {
+    grid-area: 5/3/6/5;
+    background-color: blue;
+}
+#six3 {
+    grid-area: 5/5/6/7;
+    background-color: blue;
+}
+#six4 {
+    grid-area: 5/7/6/9;
+    background-color: blue;
+}
+#six5 {
+    grid-area: 5/9/6/11;
+    background-color: blue;
+}
+#six6 {
+    grid-area: 5/11/6/14;
+    background-color: blue;
+}
+.dvs {
+    background-color: blue;
+}

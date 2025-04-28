@@ -1,0 +1,45 @@
+#par {
+    height: 800px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(7,1fr);
+    background-color: black;
+    gap: 8px;
+}
+#ch {
+    background-color: red;
+    grid-area: 1/1/4/4;
+}
+#ch2 {
+    grid-area: 4/1/8/4;
+    background-color: white;
+}
+#ch3 {
+    grid-area: 1/4/2/8;
+    background-color: cyan;
+}
+#ch4 {
+    grid-area: 1/8/2/14;
+    background-color: burlywood;
+}
+#ch5 {
+    grid-area: 2/4/5/7;
+    background-color: burlywood;
+}
+#ch6 {
+    grid-area: 2/7/5/11;
+    background-color: white;
+}
+#ch7 {
+    grid-area: 5/4/8/9;
+    background-color: red;
+}
+#ch8 {
+    grid-area:  5/9/8/11;
+    background-color: cyan;
+}
+#ch9 {
+    grid-area: 2/11/8/14;
+    background-color: red;
+}

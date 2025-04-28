@@ -1,0 +1,34 @@
+#parent {
+    height: 700px;
+    width: 1000px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 4;
+    gap: 10px;
+}
+#ch {
+    grid-area: 1/1/3/3;
+    background-color: blue;
+}
+#ch2 {
+    grid-area: 1/3/2/6;
+    background-color: orange;
+
+}
+#ch3 {
+    grid-area: 3/1/4/3;
+    background-color: cyan;
+}
+#ch4 {
+    grid-area: 2/3/4/5;
+    background-color: green;
+}
+#ch5 {
+    grid-area: 2/5/3/6;
+    background-color: pink;
+}
+#ch6 {
+    grid-area: 3/5/4/6;
+    background-color: purple;
+}

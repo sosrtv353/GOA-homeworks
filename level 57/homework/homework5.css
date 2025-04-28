@@ -1,0 +1,74 @@
+#firstline {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+img {
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    left: 1350px;
+}
+#username {
+    position: absolute ;
+    left: 1420px;
+    font-weight: 800;
+}
+#bell {
+    position: absolute;
+    left: 1300px;
+}
+input {
+    width: 500px;
+    position: absolute;
+    left: 400px;
+    border-radius: 12px;
+    background-color: rgb(198, 195, 195);
+    color: white;
+}
+#downline {
+    flex-direction: row;
+    position: relative;
+}
+#srch {
+    position: absolute;
+    left: 360px;
+}
+#cat {
+    position: absolute;
+    left:300px;
+}
+#greet {
+    position: absolute;
+    left: 380px;
+}
+span {
+    font-size: small;
+    margin-right: 10px;
+}
+.cards {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin: 15px;
+    
+}
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.box {
+    height: 100px;
+    width: 150px;
+    background-color: antiquewhite;
+    border: 4px orange solid;
+    text-align: center;
+}
+#boxes {
+    display: flex;
+    justify-content: space-around;
+}
+#asides {
+    background-color: blue;
+    color: white;
+}
