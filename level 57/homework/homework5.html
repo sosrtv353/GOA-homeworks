@@ -1,65 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="homework5.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
-    <section>
-        <div id="firstline">
-            <i class="fa fa-search" id="srch"></i>
-            <form>
-                <label for="#search"></label>
-                <input type="text" id="search">
-            </form>
-            <i class="fa fa-bell" id="bell"></i>
-            <img src="cat-profile.jpg" alt="profile">
-            <p id="username">Morgan Oakley</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://kit.fontawesome.com/0042a04d70.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="homework5.css">
+    </head>
+    <body>
+        <div id="navigation-div">
+            <div id="logo-div">
+                <i class="fa-brands fa-slack"></i>
+                <h1>Dashboard</h1>
+            </div>
+            <nav>
+                <p><i class="fa-solid fa-house"></i>Home</p>
+                <p><i class="fa-regular fa-address-card"></i></i>Profile</p>
+                <p><i class="fa-solid fa-message"></i></i>Message</p>
+                <p><i class="fa-solid fa-clock"></i></i>History</p>
+                <p><i class="fa-solid fa-file"></i></i>Tasks</p>
+                <p id="nav-margin"><i class="fa-solid fa-users"></i>Communities</p>
+                <p><i class="fa-solid fa-gear"></i>Settings</p>
+                <p><i class="fa-solid fa-question"></i>Support</p>
+                <p><i class="fa-solid fa-shield-halved"></i>Privacy</p>
+            </nav>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="downline">
-            <img src="cat-profile.jpg" alt="profile" id="cat">
-            <p id="greet"><span>hi there</span>morgan oakley</p>
-            <div id="buttons">
-                <button class="cards">New</button>
-                <button class="cards">Upload</button>
-                <button class="cards">Share</button>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <section>
-        <div id="boxes">
-            <div id="boxes1">
-                <div class="box"><p>ssjssxjjsxjsx</p></div>
-                <div class="box"><p>sxhuxshjsxjsx</p></div>
-            </div>
-            <br>
-            <div id="boxes2">
-                <div class="box"><p>xsxs</p></div>
-                <div class="box"><p>xhsxhhbsxhbsx</p></div>
-            </div>
-            <br>
-            <div id="boxes3">
-                <div class="box"><p>sxbhsxhbsxh</p></div>
-                <div class="box"><p>sxhsxhshsx</p></div>
-            </div>
-        </div>
-    </section>
-    <section id="asides">
-        <p>Home</p>
-        <p>profile</p>
-        <p>messages</p>
-        <p>history</p>
-        <p>tasks</p>
-        <p>communities</p>
-    </section>
-</body>
+        <header>
+            <section id="search-section">
+                <div id="input-div">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+                <div id="pr-div">
+                    <i class="fa-solid fa-bell"></i>
+                    <img src="cat-profile.jpg" alt="profile1">
+                    <p>Morgan Oakley</p>
+                </div>
+            </section>
+            <section id="profile-section">
+                <div id="profile-div">
+                    <img src="cat-profile.jpg" alt="profile1">
+                    <div>
+                        <p>Hi there,</p>
+                        <h2>Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+                <div id="buttons-div">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Shere</button>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section id="header-section">
+                <p>Your Projects</p>
+                <p id="section-p">Announcements</p>
+            </section>
+            <section id="main-section">
+                <div id="grid-div">
+                    <div class="grid-child" id="grid-1">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Super Cool Project
+                            </p>
+                            <div id="text-div1">
+                                <p class="grid-p">
+                                    Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="grid-child" id="grid-2">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Less Cool Project
+                            </p>
+                            <div id="text-div2">
+                                <p class="grid-p">
+                                    Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor
+                                    tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien
+                                    in, varius pellentesque lacus.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="grid-child" id="grid-6">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Impossible App
+                            </p>
+                            <div id="text-div6">
+                                <p class="grid-p">
+                                    In hac habitasse platea dictumst. Vivamus dictum rutrum
+                                    arcu, a placerat velit sagittis id.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="grid-child" id="grid-4">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Easy Peasy App
+                            </p>
+                            <div id="text-div4">
+                                <p class="grid-p">
+                                    Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan
+                                    aliquam.
+                                    Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="grid-child" id="grid-5">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Ad Blocker
+                            </p>
+                            <div id="text-div5">
+                                <p class="grid-p">
+                                    Quisque eget rutrum nisl. Nam augue justo cursus vitae metus vel, pharetra
+                                    hendrerit felis. Aliquam sed malesuada eros.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="grid-child" id="grid-7">
+                        <div class="p-div">
+                            <p class="grid-main-p">
+                                Money Maker
+                            </p>
+                            <div id="text-div7">
+                                <p class="grid-p">
+                                    Praesent convallis, libero quis congue elementumt, nunc ante faucibus sapien, ac
+                                    scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="section-1">
+                    <div id="grid3-div">
+                        <div>
+                            <p class="grid-3-p">
+                                Site maintenance
+                            </p>
+                            <p class="grid-3-cont">
+                                Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                                Donec hendrerit sodales congue...
+                            </p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="grid-3-p">
+                                Community Share Day
+                            </p>
+                            <p class="grid-3-cont">
+                                Nam vel lectus tincidunt, rutrum nulla eu ornare libero. Aliquam dictum
+                                accumsan porttitor...
+                            </p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="grid-3-p">
+                                Updated Privacy Policy
+                            </p>
+                            <p class="grid-3-cont">
+                                Phasellus efficitur nisi eget elit consectetur, eget condimentum ante
+                                auctor. Cras fringilla sagittis sem in mattis...
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="grid-8">
+                        <p id="grid-8-p">Trending</p>
+                        <div id="grid-content">
+                            <div class="profiles-div">
+                                <img src="profiles2.png" alt="profile-3">
+                                <div>
+                                    <p class="content-p">@tegan</p>
+                                    <p class="cont-p">World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="profiles-div">
+                                <img src="profiles2.png" alt="profile-1">
+                                <div>
+                                    <p class="content-p">@morgan</p>
+                                    <p class="cont-p">Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="profiles-div">
+                                <img src="profiles2.png" alt="profile-2">
+                                <div>
+                                    <p class="content-p">@kendall</p>
+                                    <p class="cont-p">Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="profiles-div">
+                                <img src="profiles2.png" alt="profile-4">
+                                <div>
+                                    <p class="content-p">@alex</p>
+                                    <p class="cont-p">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
