@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button-main">My full name is loading</button>
+    <h1 id="heading">Level one heading</h1>
+    <br>
+    <button id="button-main2">click</button>
+    <p id="p-main">P</p>
+    <script>
+        let myName=document.getElementById("button-main")
+        myName.textContent="Soso rtveliashvili"
+        let H = document.getElementById("heading")
+        H.style.color="blue";
+        H.style.backgroundColor="red";
+        H.style.fontWeight=900
+        H.style.fontSize="40px"
+        H.style.borderRadius="40px"
+
+        let bt = document.getElementById("button-main2")
+        let par = document.getElementById("p-main")
+        bt.style.color="green"
+        bt.style.backgroundColor="black"
+        par.fontSize= "80px"
+        par.textContent="Paragraph"
+       
+    </script>
+</body>
+</html>

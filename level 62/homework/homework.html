@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="header">A Header</h1>
+        <p id="greet">Hi!</p>
+        <p id="paragraph">paragraph</p>
+    </header>
+    <main>
+        <h2 id="title1">title</h2>
+        <h2 id="heading">Red paragraph</h2>
+        <div id="box"></div>
+    </main>
+    <footer>
+        <p id="footer1">End</p>
+        <p id="note">Nothing</p>
+    </footer>
+
+    
+    <script>
+        let header1 = document.getElementById("header")
+        let paragraph = document.getElementById("paragraph")
+        let footerElement=document.getElementById("footer1")
+        let title1 = document.getElementById("title1"); 
+        let title = title1.textContent;
+        let greeting = document.getElementById("greet")
+        greeting.textContent="Welcome!"
+        let nothing = document.getElementById("note")
+        nothing.textContent=""
+        let redP= document.getElementById("heading")
+        redP.style.color="red"
+        let divBox=document.getElementById("box")
+        divBox.style.backgroundColor="yellow"
+        paragraph.style.fontSize="20px"
+
+    </script>
+</body>
+</html>
