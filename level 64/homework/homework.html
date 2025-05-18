@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="txt">this text will change</p>
+    <form>
+        <label for="inp">Enter anything</label>
+        <input type="text" id="inp">
+    </form>
+    <button onclick="inputAlert(event)">Click</button>
+    <form>
+        <label for="bg">Change background color</label>
+        <input type="text" id="bg">
+        <button onclick="bgChange(event)">click to change background color</button>
+        <h1 id="fullname">Your full name:</h1>
+        <form>
+            <input type="text" id="name">
+            <input type="text" id="lastname">
+            <button onclick="nameSurname(event)">done</button>
+        </form>
+    </form>
+    <script src="homework.js"></script>
+</body>
+</html>
