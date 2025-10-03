@@ -1,0 +1,83 @@
+main {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 20px; 
+}
+#daniel-div {
+    color: white;
+    /* height: 350px; */
+    width: 500px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    grid-area: 1/1/4/4;
+
+}
+.round-img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+#p-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.white {
+    color: white;
+}
+#quotes {
+    transform: translate(300px,80px);
+    opacity: 0.6;
+    grid-area: 1/1/4/4;
+
+}
+
+#jonathan-div {
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    grid-area: 1/4/4/6;
+}
+
+#kira-div {
+    color: gray;
+    background-color: white;
+    /* height: 700px; */
+    width: 300px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    grid-area: 1/6/6/8;
+}
+
+#jeanette-div {
+    color: gray;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    grid-area: 4 / 1 / 6 / 9;
+}
+
+#patrick-div {
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    height: 400px;
+    width: 800px;
+    border-radius: 5px;
+    grid-area: 4 / 3 / 6 / 6;
+}
+
+

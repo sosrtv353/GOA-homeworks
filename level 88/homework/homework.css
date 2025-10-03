@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+p, h1,h2 {
+    font-family: League Spartan;
+}
+#review {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 2px;
+}
+
+#review h1 {
+    grid-area: 2/2/3/4;
+    width: 220px;
+    font-size: xx-large;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+}
+
+#review p {
+    grid-area: 3/2/4/3;
+    width: 300px;
+    color:   hsl(303, 10%, 53%);
+}
+
+#review #rev1 {
+    grid-area: 3/4/4/6;
+    background-color: hsl(300, 24%, 96%);
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+#review #rev2 {
+    grid-area: 4/5/5/7;
+    background-color: hsl(300, 24%, 96%);
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+#review #rev3 {
+    grid-area: 5/6/6/8;
+    background-color: hsl(300, 24%, 96%);
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+.p-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.align img {
+    border-radius: 50%;
+    height: 50px;
+}
+#colton {
+    background-color:  hsl(300, 43%, 22%);
+    height: 300px;
+    width: 500px;
+    border-radius: 9px;
+}
+
+#colton img,p{
+    margin-top: 30px;
+}
+
+.paragraph {
+    text-align:center;
+    width: 500px;
+
+}
+
+#irene {
+    background-color:  hsl(300, 43%, 22%);
+    height: 300px;
+    width: 500px;
+    border-radius: 9px;
+    transform: translateY(50px);
+}
+
+#irene img,p{
+    margin-top: 30px;
+}
+
+#anne {
+    background-color:  hsl(300, 43%, 22%);
+    height: 300px;
+    width: 500px;
+    border-radius: 9px;
+    transform: translateY(100px);
+}
+
+#anne img,p{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  /* Stack everything in #review vertically */
+  #review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  #review h1,
+  #review p,
+  #review #rev1,
+  #review #rev2,
+  #review #rev3 {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  #review h1 {
+    font-size: 1.5rem;
+  }
+
+  #review p {
+    font-size: 1rem;
+  }
+
+  /* Stack all reviews vertically */
+  #reviews {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  #colton,
+  #irene,
+  #anne {
+    width: 100%;
+    max-width: 400px;
+    transform: none;
+  }
+
+  .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+}

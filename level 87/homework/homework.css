@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Shared card styles */
+#daniel-div,
+#jonathan-div,
+#kira-div,
+#jeanette-div,
+#patrick-div {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+#daniel-div {
+  color: white;
+  background-color: hsl(263, 55%, 52%);
+}
+
+#jonathan-div {
+  color: white;
+  background-color: hsl(217, 19%, 35%);
+}
+
+#kira-div {
+  color: gray;
+  background-color: white;
+  border: 1px gray solid;
+}
+
+#jeanette-div {
+  color: gray;
+  background-color: white;
+  border: 1px gray solid;
+}
+
+#patrick-div {
+  color: white;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.round-img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+#p-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.white {
+  color: white;
+}
+
+#quotes {
+  display: none; /* Hide quotes on small screens */
+}
+
+/* ------------------ */
+/* 🖥️ Desktop layout */
+/* ------------------ */
+@media (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 20px;
+    padding: 40px;
+  }
+
+  #daniel-div {
+    grid-area: 1 / 1 / 4 / 4;
+    max-width: 100%;
+  }
+
+  #jonathan-div {
+    grid-area: 1 / 4 / 4 / 6;
+    max-width: 100%;
+  }
+
+  #kira-div {
+    grid-area: 1 / 6 / 6 / 8;
+    max-width: 100%;
+  }
+
+  #jeanette-div {
+    grid-area: 4 / 1 / 6 / 3;
+    max-width: 100%;
+  }
+
+  #patrick-div {
+    grid-area: 4 / 3 / 6 / 6;
+    max-width: 100%;
+  }
+
+  #quotes {
+    display: block;
+    position: absolute;
+    transform: translate(300px, 80px);
+    opacity: 0.6;
+    z-index: 1;
+    width: 100px;
+  }
+}

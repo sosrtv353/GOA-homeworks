@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(6,1fr);
+    font-family: Noto Sans;
+    height: 100vh;
+    gap: 20px;
+    background-color: hsl(13, 31%, 94%);
+}
+img {
+    height: 250px;
+}
+#cakes {
+    grid-area: 2/2/6/7;
+}
+#selected-items {
+    grid-area: 1/8/5/11;
+    /* background-color: white;
+    background-image: url(images-dessert/illustration-empty-cart.svg);
+    background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: white;
+    border-radius: 8px;
+    height: 400px;
+}
+.spaced {
+    display: flex;
+    justify-content: space-around;
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+.orange {
+    color: hsl(14, 86%, 42%);
+}
+.spaced-button img {
+    height: 20px;
+}
+.spaced button {
+    border-radius: 12px;
+    transform: translateY(-20px);
+}
+.creme {
+    color: hsl(14, 25%, 72%);
+}
+#img-p-space {
+    display: flex;
+    justify-content: center;
+}

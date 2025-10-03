@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+p , h2{
+    color: white;
+    font-family: Rubik;
+}
+h2 {
+    font-size: xx-large;
+    font-weight: 300;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    background-color: hsl(237, 27%, 13%);
+}
+
+
+div {
+    background-color:  hsl(235, 46%, 20%);
+    border-radius: 12px;
+}
+
+#big-box {
+    grid-area: 1/1/5/2;
+    width: 300px;
+}
+#inner-big-box {
+    height: 60%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 12px;
+}
+#inner-big-box p,h2 {
+    margin-left: 20px;
+}
+.left-margin {
+    margin-left: 20px;
+}
+
+/* work, play, study, excrescise, social, self-care  */
+
+#work {
+    grid-area: 1/2/3/3;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#play {
+    grid-area: 1/3/3/4;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#study {
+    grid-area: 1/4/3/5;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#excrescise {
+    grid-area: 3/2/5/3;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#social {
+    grid-area: 3/3/5/4;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#self-care {
+    grid-area: 3/4/5/5;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.icon-p-row {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+}
+
+
